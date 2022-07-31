@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.1">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://example.com/archives/2022/07/"/>
+  
+  <link rel="canonical" href="http://example.com/2022/07/28/ros2/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -47,17 +47,19 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="迷途" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>归档：2022/7 - 迷途</title>
+  <title>ros2笔记 - 迷途</title>
   <meta name="keywords" content="null">
   <meta desc name="description" content="https://wenchengz.cn - 迷途 - 迷途">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="迷途">
-<meta property="og:url" content="http://example.com/archives/2022/07/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ros2笔记">
+<meta property="og:url" content="http://example.com/2022/07/28/ros2/index.html">
 <meta property="og:site_name" content="迷途">
-<meta property="og:description" content="https:&#x2F;&#x2F;wenchengz.cn">
+<meta property="og:description" content="ros2基础ros2节点通过节点查看节点信息 运行节点  ros2 run 包名 节点名  查看节点列表  ros2 node list  查看节点信息  ros2 node info 节点名  重映射节点  ros2 run turtlesim turtlesim_node –ros-args –remap __node:&#x3D;my_turtle   功能包12mkdir -p .&#x2F;src">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2022-07-28T15:43:08.000Z">
+<meta property="article:modified_time" content="2022-07-31T10:35:49.820Z">
 <meta property="article:author" content="迷途">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2185,7 +2187,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2454,7 +2456,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="half" class='cover-wrapper  dock' style="display: ;">
+      <div id="none" class='cover-wrapper post dock' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://w.wallhaven.cc/full/3z/wallhaven-3zmr6y.jpg"></div>
 
@@ -2522,27 +2524,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-	
-		
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/28/ros2/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="迷途">
@@ -2552,236 +2534,287 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="https://wenchengz.cn">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/07/28/ros2/"  itemprop="url">
+    
+    
+      <h1 class="title" itemprop="name headline">
         ros2笔记
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        ros2基础ros2节点通过节点查看节点信息
-运行节点  ros2 run 包名 节点名
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">本文作者:迷途</p>
+  </a>
+</div>
 
-查看节点列表  ros2 node list
+          
+        
+          
+            
 
-查看节点信息  ros2 node info 节点名
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-07-28T23:43:08+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2022年7月28日</p>
+  </a>
+</div>
 
-重映射节点  ros2 run turtlesim turtlesim_node –ros-args –remap __node:&#x3D;my_turtle
+          
+        
+          
+            
 
 
-功能包12mkdir -p ./...
-      
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
     
   </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <div class="story post-story"><h2 id="ros2基础"><a href="#ros2基础" class="headerlink" title="ros2基础"></a>ros2基础</h2><h3 id="ros2节点"><a href="#ros2节点" class="headerlink" title="ros2节点"></a>ros2节点</h3><h3 id="通过节点查看节点信息"><a href="#通过节点查看节点信息" class="headerlink" title="通过节点查看节点信息"></a>通过节点查看节点信息</h3><ol>
+<li><p>运行节点  ros2 run 包名 节点名</p>
+</li>
+<li><p>查看节点列表  ros2 node list</p>
+</li>
+<li><p>查看节点信息  ros2 node info 节点名</p>
+</li>
+<li><p>重映射节点  ros2 run turtlesim turtlesim_node –ros-args –remap __node:&#x3D;my_turtle</p>
+</li>
+</ol>
+<h4 id="功能包"><a href="#功能包" class="headerlink" title="功能包"></a>功能包</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p ./src</span><br><span class="line">sudo apt install ros-foxy-包名</span><br></pre></td></tr></table></figure>
+
+<h4 id="相关指令"><a href="#相关指令" class="headerlink" title="相关指令"></a>相关指令</h4><ol>
+<li>创建功能包ros2 pkg create 包名  –build-type  {cmake,ament_cmake,ament_python}  –dependencies &lt;依赖名字&gt;</li>
+<li>列出可执行文件 ros2 pkg 包名 功能包名</li>
+<li>列出所有的包 ros2 pkg list</li>
+<li>输出包所在路径前缀 ros2 pkg prefix  包名</li>
+</ol>
+<h3 id="colcon"><a href="#colcon" class="headerlink" title="colcon"></a>colcon</h3><h4 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h4><ol>
+<li>全部编译 source install&#x2F;setup.bash</li>
+<li>编译一个包 colcon build –packages-select 包名</li>
+</ol>
+<p>ros2 pkg create village_li 需间隔两个空 –build-type ament_python –dependencies rclpy </p>
+<p>ros2 pkg list | grep vill 将包含vill的结果输出</p>
+<h3 id="使用c-编写"><a href="#使用c-编写" class="headerlink" title="使用c++编写"></a>使用c++编写</h3><p>创建功能包</p>
+<p>&#x3D;&#x3D;ros2 pkg create village_wang –dependencies rclcpp&#x3D;&#x3D;</p>
+<p>编写代码</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// &quot;&quot;&quot; </span></span><br><span class="line"><span class="comment">//     1. 导入库文件</span></span><br><span class="line"><span class="comment">//     2. 初始化客户端库</span></span><br><span class="line"><span class="comment">//     3. 新建节点</span></span><br><span class="line"><span class="comment">//     4. spin循环节点</span></span><br><span class="line"><span class="comment">//     5. 关闭客户端库</span></span><br><span class="line"><span class="comment">//  &quot;&quot;&quot;</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;rclcpp/rclcpp.hpp&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> *argv[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    rclcpp::<span class="built_in">init</span>(argc, argv);</span><br><span class="line">    <span class="keyword">auto</span> node = std::<span class="built_in">make_shared</span>&lt;rclcpp::Node&gt;(<span class="string">&quot;wang2&quot;</span>);</span><br><span class="line">    <span class="built_in">RCLCPP_INFO</span>(node-&gt;<span class="built_in">get_logger</span>(),<span class="string">&quot;大家好，我是单身沟王而&quot;</span>);</span><br><span class="line">    rclcpp::<span class="built_in">spin</span>(node);</span><br><span class="line">    rclcpp::<span class="built_in">shutdown</span>();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>修改cmakelist文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">add_executable(wang2_node src/wang2_pop.cpp)</span><br><span class="line">ament_target_dependencies(wang2_node rclcpp)</span><br><span class="line"></span><br><span class="line">install(TARGETS</span><br><span class="line">  wang2_node</span><br><span class="line">  DESTINATION lib/$&#123;PROJECT_NAME&#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<p>编译运行节点</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">colcon build</span><br><span class="line">ros2 run village_wang wang2_node</span><br></pre></td></tr></table></figure>
+
+<h3 id="使用python编写"><a href="#使用python编写" class="headerlink" title="使用python编写"></a>使用python编写</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> rclpy</span><br><span class="line"><span class="keyword">from</span> rclpy.node <span class="keyword">import</span> Node</span><br><span class="line"></span><br><span class="line"><span class="comment"># &quot;&quot;&quot; </span></span><br><span class="line"><span class="comment">#     1. 导入库文件</span></span><br><span class="line"><span class="comment">#     2. 初始化客户端库</span></span><br><span class="line"><span class="comment">#     3. 新建节点</span></span><br><span class="line"><span class="comment">#     4. spin循环节点</span></span><br><span class="line"><span class="comment">#     5. 关闭客户端库</span></span><br><span class="line"><span class="comment">#  &quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">args=<span class="literal">None</span></span>):</span><br><span class="line">    <span class="comment"># 入口函数</span></span><br><span class="line">    <span class="comment"># 2. 初始化客户端库</span></span><br><span class="line">    rclpy.init(args=args)</span><br><span class="line">    <span class="comment"># 3. 新建节点</span></span><br><span class="line">    li4_node = WriteNode(<span class="string">&quot;li4&quot;</span>)</span><br><span class="line">    <span class="comment"># li4_node.get_logger().info(&quot;大家好,我是作家li4&quot;)</span></span><br><span class="line">    rclpy.spin(li4_node)</span><br><span class="line">    rclpy.shutdown</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+</div><div class="story post-story"><h2 id="话题介绍"><a href="#话题介绍" class="headerlink" title="话题介绍"></a>话题介绍</h2><h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ol>
+<li>ros2 topic list  返回系统中当前活动的所有主题的列表</li>
+<li>ros2 topic list -t 增加消息类型</li>
+<li>ros2 topic echo &#x2F;chatter 打印实时话题内容</li>
+<li>ros2 topic info  &#x2F;chatter  查看主题信息</li>
+<li>ros2 interface show std_msgs&#x2F;msg&#x2F;String  查看消息类型</li>
+<li>ros2 topic pub &#x2F;chatter std_msgs&#x2F;msg&#x2F;String ‘data: “123”‘  手动发布命令</li>
+</ol>
+<h3 id="python"><a href="#python" class="headerlink" title="python"></a>python</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># import rclpy</span></span><br><span class="line"><span class="comment"># from rclpy.node import Node</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># &quot;&quot;&quot; </span></span><br><span class="line"><span class="comment">#     1. 导入库文件</span></span><br><span class="line"><span class="comment">#     2. 初始化客户端库</span></span><br><span class="line"><span class="comment">#     3. 新建节点</span></span><br><span class="line"><span class="comment">#     4. spin循环节点</span></span><br><span class="line"><span class="comment">#     5. 关闭客户端库</span></span><br><span class="line"><span class="comment">#  &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># def main(args=None):</span></span><br><span class="line"><span class="comment">#     # 入口函数</span></span><br><span class="line"><span class="comment">#     # 2. 初始化客户端库</span></span><br><span class="line"><span class="comment">#     rclpy.init(args=args)</span></span><br><span class="line"><span class="comment">#     # 3. 新建节点</span></span><br><span class="line"><span class="comment">#     li4_node = Node(&quot;li4&quot;)</span></span><br><span class="line"><span class="comment">#     li4_node.get_logger().info(&quot;大家好,我是作家li4&quot;)</span></span><br><span class="line"><span class="comment">#     rclpy.spin(li4_node)</span></span><br><span class="line"><span class="comment">#     rclpy.shutdown</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> rclpy</span><br><span class="line"><span class="keyword">from</span> rclpy.node <span class="keyword">import</span> Node</span><br><span class="line"><span class="keyword">from</span> std_msgs.msg <span class="keyword">import</span> String,UInt32</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;&quot;&quot; </span></span><br><span class="line"><span class="string">    导入消息类型</span></span><br><span class="line"><span class="string">    声明并创建发布者</span></span><br><span class="line"><span class="string">    编写发布者逻辑发布数据</span></span><br><span class="line"><span class="string"> &quot;&quot;&quot;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot; </span></span><br><span class="line"><span class="string">    1. 导入库文件</span></span><br><span class="line"><span class="string">    2. 初始化客户端库</span></span><br><span class="line"><span class="string">    3. 新建节点</span></span><br><span class="line"><span class="string">    4. spin循环节点</span></span><br><span class="line"><span class="string">    5. 关闭客户端库</span></span><br><span class="line"><span class="string"> &quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">WriteNode</span>(<span class="title class_ inherited__">Node</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,name</span>):</span><br><span class="line">        <span class="built_in">super</span>().__init__(name)</span><br><span class="line">        self.get_logger().info(<span class="string">&quot;大家好，我是作家%s&quot;</span> % name)</span><br><span class="line">        <span class="comment"># 声明并创建发布者</span></span><br><span class="line">        self.pub_novel = self.create_publisher(String,<span class="string">&quot;sexy_girl&quot;</span>,<span class="number">10</span>)</span><br><span class="line">        self.count = <span class="number">0</span></span><br><span class="line">        self.timer_period = <span class="number">5</span></span><br><span class="line">        self.timer = self.create_timer(self.timer_period,self.timer_callback)</span><br><span class="line">        </span><br><span class="line">        self.account = <span class="number">80</span></span><br><span class="line">        self.sub_money = self.create_subscription(UInt32,<span class="string">&quot;sexy_girl_money&quot;</span>,self.recv_money_callback,<span class="number">10</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">timer_callback</span>(<span class="params">self</span>):</span><br><span class="line">        msg = String()</span><br><span class="line">        msg.data = <span class="string">&quot;年此外%d&quot;</span> % self.count</span><br><span class="line">        self.pub_novel.publish(msg)</span><br><span class="line">        self.get_logger().info(<span class="string">&quot;发布了一个消息%s&quot;</span> % msg.data)</span><br><span class="line">        self.count +=<span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">recv_money_callback</span>(<span class="params">self,money</span>):</span><br><span class="line">        self.account += money.data</span><br><span class="line">        self.get_logger().info(<span class="string">&quot;收到%d的稿费，现在账户里有%d的钱&quot;</span> % (money.data,self.account))</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">args=<span class="literal">None</span></span>):</span><br><span class="line">    <span class="comment"># 入口函数</span></span><br><span class="line">    <span class="comment"># 2. 初始化客户端库</span></span><br><span class="line">    rclpy.init(args=args)</span><br><span class="line">    <span class="comment"># 3. 新建节点</span></span><br><span class="line">    li4_node = WriteNode(<span class="string">&quot;li4&quot;</span>)</span><br><span class="line">    <span class="comment"># li4_node.get_logger().info(&quot;大家好,我是作家li4&quot;)</span></span><br><span class="line">    rclpy.spin(li4_node)</span><br><span class="line">    rclpy.shutdown</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="c"><a href="#c" class="headerlink" title="c++"></a>c++</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// &quot;&quot;&quot; </span></span><br><span class="line"><span class="comment">//     1. 导入库文件</span></span><br><span class="line"><span class="comment">//     2. 初始化客户端库</span></span><br><span class="line"><span class="comment">//     3. 新建节点</span></span><br><span class="line"><span class="comment">//     4. spin循环节点</span></span><br><span class="line"><span class="comment">//     5. 关闭客户端库</span></span><br><span class="line"><span class="comment">//  &quot;&quot;&quot;</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;rclcpp/rclcpp.hpp&quot;</span></span></span><br><span class="line"><span class="comment">// // 导入消息类型</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;std_msgs/msg/string.hpp&quot;</span></span></span><br><span class="line"><span class="comment">// 导入发布者的消息接口类型</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;std_msgs/msg/u_int32.hpp&quot;</span></span></span><br><span class="line"><span class="keyword">using</span> std::placeholders::_1;</span><br><span class="line"><span class="keyword">using</span> std::placeholders::_2;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SingleDogNode</span>: <span class="keyword">public</span> rclcpp::Node</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="comment">/* data */</span></span><br><span class="line">    <span class="comment">// /声明订阅者</span></span><br><span class="line">    rclcpp::Subscription&lt;std_msgs::msg::String&gt;::SharedPtr sub_novel;</span><br><span class="line">    <span class="comment">// 声明话题发布者</span></span><br><span class="line">    rclcpp::Publisher&lt;std_msgs::msg::UInt32&gt;::SharedPtr pub_money;</span><br><span class="line">    <span class="comment">// 创建回调函数</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">novel_callback</span><span class="params">(<span class="type">const</span> std_msgs::msg::String::SharedPtr novels)</span></span>&#123;</span><br><span class="line">        <span class="comment">// 编写发布逻辑发布数据</span></span><br><span class="line">        std_msgs::msg::UInt32 money;</span><br><span class="line">        money.data = <span class="number">10</span>;</span><br><span class="line">        pub_money-&gt;<span class="built_in">publish</span>(money);</span><br><span class="line">        <span class="comment">//编写回调处理逻辑</span></span><br><span class="line">        <span class="built_in">RCLCPP_INFO</span>(<span class="keyword">this</span>-&gt;<span class="built_in">get_logger</span>(),<span class="string">&quot;已阅%s&quot;</span>,novels-&gt;data.<span class="built_in">c_str</span>());</span><br><span class="line">    &#125;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">SingleDogNode</span>(std::string name):<span class="built_in">Node</span>(name) &#123;</span><br><span class="line">        <span class="built_in">RCLCPP_INFO</span>(<span class="keyword">this</span>-&gt;<span class="built_in">get_logger</span>(),<span class="string">&quot;大家好，我是单身沟%s&quot;</span>,name.<span class="built_in">c_str</span>());</span><br><span class="line">        <span class="comment">//3.创建订阅者</span></span><br><span class="line">        sub_novel = <span class="keyword">this</span>-&gt;<span class="built_in">create_subscription</span>&lt;std_msgs::msg::String&gt;(<span class="string">&quot;sexy_girl&quot;</span>,<span class="number">10</span>,std::<span class="built_in">bind</span>(&amp;SingleDogNode::novel_callback,<span class="keyword">this</span>,_1));</span><br><span class="line">        <span class="comment">// 创建话题发布者</span></span><br><span class="line">        pub_money = <span class="keyword">this</span>-&gt;<span class="built_in">create_publisher</span>&lt;std_msgs::msg::UInt32&gt;(<span class="string">&quot;sexy_girl_money&quot;</span>,<span class="number">10</span>);</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> *argv[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    rclcpp::<span class="built_in">init</span>(argc, argv);</span><br><span class="line">    <span class="keyword">auto</span> node = std::<span class="built_in">make_shared</span>&lt;SingleDogNode&gt;(<span class="string">&quot;wang2&quot;</span>);</span><br><span class="line"> </span><br><span class="line">    rclcpp::<span class="built_in">spin</span>(node);</span><br><span class="line">    rclcpp::<span class="built_in">shutdown</span>();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+</div><div class="story post-story"><h2 id="自定义通信接口"><a href="#自定义通信接口" class="headerlink" title="自定义通信接口"></a>自定义通信接口</h2><h3 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h3><ol>
+<li>创建功能包</li>
+</ol>
+<p>&#x3D;&#x3D;ros2 pkg create village_interfaces&#x3D;&#x3D;</p>
+<ol start="2">
+<li>创建msg文件</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 调用原始数据类型</span><br><span class="line">string content</span><br><span class="line"># 调用已有数据类型</span><br><span class="line">sensor_msgs/Image image</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><p>修改cmakelist文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">rosidl_generate_interfaces($&#123;PROJECT_NAME&#125;</span><br><span class="line">  &quot;msg/Novel.msg&quot;</span><br><span class="line">  DEPENDENCIES sensor_msgs</span><br><span class="line">)</span><br><span class="line">find_package(sensor_msgs REQUIRED)</span><br><span class="line">find_package(rosidl_default_generators REQUIRED)</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>修改xml文件</p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;buildtool_depend&gt;ament_cmake&lt;/buildtool_depend&gt;</span><br><span class="line"></span><br><span class="line">&lt;depend&gt;rosidl_default_generators&lt;/depend&gt;</span><br><span class="line">&lt;depend&gt;geometry_msgs&lt;/depend&gt;</span><br><span class="line"></span><br><span class="line">&lt;member_of_group&gt;rosidl_interface_packages&lt;/member_of_group&gt; #添加这一行</span><br><span class="line"></span><br><span class="line">&lt;test_depend&gt;ament_lint_auto&lt;/test_depend&gt;</span><br><span class="line">&lt;test_depend&gt;ament_lint_common&lt;/test_depend&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h3><ol>
+<li>souce </li>
+<li>ros2 interface package village_interfaces</li>
+</ol>
+</div><div class="story post-story"><h2 id="服务介绍"><a href="#服务介绍" class="headerlink" title="服务介绍"></a>服务介绍</h2><h3 id="启动服务："><a href="#启动服务：" class="headerlink" title="启动服务："></a>启动服务：</h3><ol>
+<li>调用服务列表ros2 service list</li>
+<li>手动调用服务ros2 service call &#x2F;add_two_ints example_interfaces&#x2F;srv&#x2F;AddTwoInts “{a: 1,b: 1}”</li>
+<li>查看服务类型 ros2 service type &#x2F;add_two_ints</li>
+<li>查找使用某接口的服务 ros2 service find example_interfaces&#x2F;srv&#x2F;AddTwoInts</li>
+</ol>
+<h3 id="python-1"><a href="#python-1" class="headerlink" title="python"></a>python</h3><h4 id="编写srv文件配置cmakelist"><a href="#编写srv文件配置cmakelist" class="headerlink" title="编写srv文件配置cmakelist"></a>编写srv文件配置cmakelist</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># request </span><br><span class="line">string name</span><br><span class="line">uint32 money</span><br><span class="line">---</span><br><span class="line"># response</span><br><span class="line">bool success</span><br><span class="line">uint32 money</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">uint32 money</span><br><span class="line">---</span><br><span class="line">string[] novels</span><br></pre></td></tr></table></figure>
+
+<h4 id="python服务端实现"><a href="#python服务端实现" class="headerlink" title="python服务端实现"></a>python服务端实现</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># import rclpy</span></span><br><span class="line"><span class="comment"># from rclpy.node import Node</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># &quot;&quot;&quot; </span></span><br><span class="line"><span class="comment">#     1. 导入库文件</span></span><br><span class="line"><span class="comment">#     2. 初始化客户端库</span></span><br><span class="line"><span class="comment">#     3. 新建节点</span></span><br><span class="line"><span class="comment">#     4. spin循环节点</span></span><br><span class="line"><span class="comment">#     5. 关闭客户端库</span></span><br><span class="line"><span class="comment">#  &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># def main(args=None):</span></span><br><span class="line"><span class="comment">#     # 入口函数</span></span><br><span class="line"><span class="comment">#     # 2. 初始化客户端库</span></span><br><span class="line"><span class="comment">#     rclpy.init(args=args)</span></span><br><span class="line"><span class="comment">#     # 3. 新建节点</span></span><br><span class="line"><span class="comment">#     li4_node = Node(&quot;li4&quot;)</span></span><br><span class="line"><span class="comment">#     li4_node.get_logger().info(&quot;大家好,我是作家li4&quot;)</span></span><br><span class="line"><span class="comment">#     rclpy.spin(li4_node)</span></span><br><span class="line"><span class="comment">#     rclpy.shutdown</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> rclpy</span><br><span class="line"><span class="keyword">from</span> rclpy.node <span class="keyword">import</span> Node</span><br><span class="line"><span class="keyword">from</span> std_msgs.msg <span class="keyword">import</span> String,UInt32</span><br><span class="line"><span class="keyword">from</span> village_interfaces.srv <span class="keyword">import</span> BorrowMoney</span><br><span class="line"><span class="string">&quot;&quot;&quot; </span></span><br><span class="line"><span class="string">    导入消息类型</span></span><br><span class="line"><span class="string">    声明并创建发布者</span></span><br><span class="line"><span class="string">    编写发布者逻辑发布数据</span></span><br><span class="line"><span class="string"> &quot;&quot;&quot;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot; </span></span><br><span class="line"><span class="string">    1. 导入库文件</span></span><br><span class="line"><span class="string">    2. 初始化客户端库</span></span><br><span class="line"><span class="string">    3. 新建节点</span></span><br><span class="line"><span class="string">    4. spin循环节点</span></span><br><span class="line"><span class="string">    5. 关闭客户端库</span></span><br><span class="line"><span class="string"> &quot;&quot;&quot;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot; </span></span><br><span class="line"><span class="string">    导入服务接口</span></span><br><span class="line"><span class="string">    创建服务器回调函数</span></span><br><span class="line"><span class="string">    声明并创建服务类</span></span><br><span class="line"><span class="string">    编写回调函数逻辑处理请求</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">  &quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">WriteNode</span>(<span class="title class_ inherited__">Node</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,name</span>):</span><br><span class="line">        <span class="built_in">super</span>().__init__(name)</span><br><span class="line">        self.get_logger().info(<span class="string">&quot;大家好，我是作家%s&quot;</span> % name)</span><br><span class="line">        <span class="comment"># 声明并创建发布者</span></span><br><span class="line">        self.pub_novel = self.create_publisher(String,<span class="string">&quot;sexy_girl&quot;</span>,<span class="number">10</span>)</span><br><span class="line">        self.count = <span class="number">0</span></span><br><span class="line">        self.timer_period = <span class="number">5</span></span><br><span class="line">        self.timer = self.create_timer(self.timer_period,self.timer_callback)</span><br><span class="line">        </span><br><span class="line">        self.account = <span class="number">80</span></span><br><span class="line">        self.sub_money = self.create_subscription(UInt32,<span class="string">&quot;sexy_girl_money&quot;</span>,self.recv_money_callback,<span class="number">10</span>)</span><br><span class="line">        <span class="comment"># 声明并创建服务类</span></span><br><span class="line">        self.borrow_server = self.create_service(BorrowMoney,<span class="string">&quot;borrow_money&quot;</span>,self.borrow_money_callback)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 创建服务器回调函数</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">borrow_money_callback</span>(<span class="params">self,request,response</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot; </span></span><br><span class="line"><span class="string">            request 来自客户端的请求数据</span></span><br><span class="line"><span class="string">            response 服务端的响应数据</span></span><br><span class="line"><span class="string">            编写回调函数逻辑处理请求</span></span><br><span class="line"><span class="string">         &quot;&quot;&quot;</span></span><br><span class="line">        self.get_logger().info(<span class="string">&quot;收到来自：%s的借钱请求，账户目前有：%d&quot;</span> % (request.name,self.account))</span><br><span class="line">        <span class="keyword">if</span> request.money &lt;= self.account*<span class="number">0.1</span>:</span><br><span class="line">            response.success = <span class="literal">True</span></span><br><span class="line">            response.money = request.money</span><br><span class="line">            self.account = self.account - request.money</span><br><span class="line">            self.get_logger().info(<span class="string">&quot;借钱成功，借出%d,目前还剩%d&quot;</span> % (response.money,self.account))</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            response.success = <span class="literal">False</span></span><br><span class="line">            response.money = <span class="number">0</span></span><br><span class="line">            self.get_logger().info(<span class="string">&quot;对不起，大兄弟，现在手头紧，不能借给你！&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span> response</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">timer_callback</span>(<span class="params">self</span>):</span><br><span class="line">        msg = String()</span><br><span class="line">        msg.data = <span class="string">&quot;年此外%d&quot;</span> % self.count</span><br><span class="line">        self.pub_novel.publish(msg)</span><br><span class="line">        self.get_logger().info(<span class="string">&quot;发布了一个消息%s&quot;</span> % msg.data)</span><br><span class="line">        self.count +=<span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">recv_money_callback</span>(<span class="params">self,money</span>):</span><br><span class="line">        self.account += money.data</span><br><span class="line">        self.get_logger().info(<span class="string">&quot;收到%d的稿费，现在账户里有%d的钱&quot;</span> % (money.data,self.account))</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">args=<span class="literal">None</span></span>):</span><br><span class="line">    <span class="comment"># 入口函数</span></span><br><span class="line">    <span class="comment"># 2. 初始化客户端库</span></span><br><span class="line">    rclpy.init(args=args)</span><br><span class="line">    <span class="comment"># 3. 新建节点</span></span><br><span class="line">    li4_node = WriteNode(<span class="string">&quot;li4&quot;</span>)</span><br><span class="line">    <span class="comment"># li4_node.get_logger().info(&quot;大家好,我是作家li4&quot;)</span></span><br><span class="line">    rclpy.spin(li4_node)</span><br><span class="line">    rclpy.shutdown</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+</div>
+  </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-07-28T23:43:08+08:00">2022-07-28</time>
-        
-      </div>
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2022/07/28/ros2/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-07-31T18:35:49+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2022年7月31日</p>
+  </a>
 </div>
 
-          </div>
         
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/28/ros/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="迷途">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="迷途">
-    <meta itemprop="description" content="https://wenchengz.cn">
-  </span>
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2022/07/28/ros2/&title=ros2笔记 - 迷途&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2022/07/28/ros2/&title=ros2笔记 - 迷途&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2022/07/28/ros2/&title=ros2笔记 - 迷途&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
   
   
+
   
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2022/07/28/ros/'>
+          <p class='title'>ros笔记<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>ros概述与环境搭建hello world实现c++123456789101112#include &quot;ros/ros.h&quot;int main(int argc, char *a...</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+      <meta itemprop="discussionUrl" content="/2022/07/28/ros2/index.html#comments">
     </span>
-  
-  
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/07/28/ros/"  itemprop="url">
-        ros笔记
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        ros概述与环境搭建hello world实现c++123456789101112#include &quot;ros/ros.h&quot;int main(int argc, char *argv[])&#123;    //执行 ros 节点初始化    ros::init(argc,argv,&quot;hello&quot;);    //创建 ros 节点句柄    ros::N...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-07-28T23:43:08+08:00">2022-07-28</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2022/07/28/ros/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
 
-</div>
+    <div id="layoutHelper-comments"></div>
 
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/26/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="迷途">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="迷途">
-    <meta itemprop="description" content="https://wenchengz.cn">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/07/26/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"  itemprop="url">
-        更新日志
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        日志关于hello,欢迎来到迷途的小窝，本站将不定期更新个人生活及学习博客
-建站进度目前仅搭建博客版块，后续更新其他板块
+  </article>
 
 
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-07-26T23:43:08+08:00">2022-07-26</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2022/07/26/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2022/07/26/%E6%B5%8B%E8%AF%95/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="迷途">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="迷途">
-    <meta itemprop="description" content="https://wenchengz.cn">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/07/26/%E6%B5%8B%E8%AF%95/"  itemprop="url">
-        测试
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        测试
-
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-07-26T23:43:08+08:00">2022-07-26</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2022/07/26/%E6%B5%8B%E8%AF%95/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
-  
-    
-  
 
 
-	
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2790,112 +2823,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">迷途</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:2674338258@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/mitu357/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/%E8%BF%B7%E9%80%94/" style="font-size: 14px; color: #999">迷途</a>
-    </div>
-  </section>
-
-
-    
-  
-
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#ros2%E5%9F%BA%E7%A1%80"><span class="toc-text">ros2基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ros2%E8%8A%82%E7%82%B9"><span class="toc-text">ros2节点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9A%E8%BF%87%E8%8A%82%E7%82%B9%E6%9F%A5%E7%9C%8B%E8%8A%82%E7%82%B9%E4%BF%A1%E6%81%AF"><span class="toc-text">通过节点查看节点信息</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E5%8C%85"><span class="toc-text">功能包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4"><span class="toc-text">相关指令</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#colcon"><span class="toc-text">colcon</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E8%AF%91"><span class="toc-text">编译</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8c-%E7%BC%96%E5%86%99"><span class="toc-text">使用c++编写</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8python%E7%BC%96%E5%86%99"><span class="toc-text">使用python编写</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%9D%E9%A2%98%E4%BB%8B%E7%BB%8D"><span class="toc-text">话题介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-text">常用命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#python"><span class="toc-text">python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#c"><span class="toc-text">c++</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%80%9A%E4%BF%A1%E6%8E%A5%E5%8F%A3"><span class="toc-text">自定义通信接口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA"><span class="toc-text">创建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AA%8C%E8%AF%81"><span class="toc-text">验证</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1%E4%BB%8B%E7%BB%8D"><span class="toc-text">服务介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1%EF%BC%9A"><span class="toc-text">启动服务：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#python-1"><span class="toc-text">python</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E5%86%99srv%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AEcmakelist"><span class="toc-text">编写srv文件配置cmakelist</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#python%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AE%9E%E7%8E%B0"><span class="toc-text">python服务端实现</span></a></li></ol></li></ol></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2923,13 +2892,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2938,14 +2908,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="half";
-      cover_wrapper.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
       scroll_down.style.display="none";
     
   
@@ -3558,7 +3528,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"迷途","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"迷途","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"https://wenchengz.cn"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"迷途"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/archives/2022/","name":"2022年"}},{"@type":"ListItem","position":4,"item":{"@id":"http://example.com/archives/2022/7/","name":"7月"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"迷途","url":"http://example.com/","keywords":null,"description":"https://wenchengz.cn","author":{"@type":"Person","name":"迷途","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"https://wenchengz.cn"},"publisher":{"@type":"Organization","name":"迷途","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"https://wenchengz.cn","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"迷途","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"迷途","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"迷途","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"迷途","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"https://wenchengz.cn"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"迷途"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/07/28/ros2/","name":"ros2笔记"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"迷途","url":"http://example.com/","keywords":null,"description":"https://wenchengz.cn","author":{"@type":"Person","name":"迷途","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"https://wenchengz.cn"},"publisher":{"@type":"Organization","name":"迷途","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"ros2笔记","description":"https://wenchengz.cn","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/07/28/ros2/"},"author":{"@type":"Person","name":"迷途","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"迷途","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/07/28/ros2/","wordCount":0,"datePublished":"2022-07-28T15:43:08.000Z","dateModified":"2022-07-31T10:35:49.820Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
